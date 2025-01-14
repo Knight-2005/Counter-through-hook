@@ -9,7 +9,7 @@ function App() {
   let [counter, setCounter] = useState(0);
 
   let addValue = () => {
-    //counter +=1;
+    //counter +=1; wiil not show changes
     setCounter(counter + 1);
     //setCounter(prevCounter => prevCounter + 1)
     //setCounter(prevCounter => prevCounter + 1) 
